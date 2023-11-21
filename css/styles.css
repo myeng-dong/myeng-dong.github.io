@@ -8167,7 +8167,6 @@ textarea.form-control-lg {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url(../assets/forest.png);
   z-index: 1000;
   
 }
@@ -11122,7 +11121,7 @@ ul, li{
   background-repeat: no-repeat;
   background-size: 400% 400%;
   position: relative;
-  animation: backgroundChange 20s ease-in-out infinite;
+  animation: backgroundChange 10s ease-in-out infinite;
   display: flex;
   justify-content: center;
   align-items: center;
