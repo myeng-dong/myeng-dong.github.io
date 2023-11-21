@@ -411,7 +411,7 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">"헬프플랫폼"   함께하마!</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-2">"헬프플랫폼" 함께하마!를 진행하며</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -424,46 +424,48 @@
                                 <!-- signup -->
                                 <div class="modalphoto sign">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/signup.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>회원가입</h3> <br>오류검사(BindResult, @Valid)를 통해 오류를 검사하고 error.properties의 오류내용을 표기합니다.</p>
+                                    <p class="mb-4"><h3>회원가입</h3> <br>서버에서 전달받은 값에 대하여 BindResult와 @Valid어노테이션으로 검증을 하고 thymeleaf(th:field, th:errors)로 원하는 검증대상을 정하는 법과 error.properties에 오류를 표현할 메세지를 담는법에 대해 알게되었습니다.</p>
                                 </div>
 
                                 <!-- login -->
                                 <div class="modalphoto log">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/login.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>로그인</h3> <br>데이터베이스에 입력값과 동일한 값이있으면 30분간 세션을 부여하여 로그인된 상태로 만듭니다.</p>
+                                    <p class="mb-4"><h3>로그인</h3> <br>입력받은 값을 검증 후 새로웠던 세션이란 개념을 알게되었습니다. <br>세션을 생성,만료를 관리하고 다른페이지에서도 현재 페이지에 진입하는 사람의 세션값을 읽어들이는 방법을 사용하여 다양한 액션을 할수 있다는 것에 흥미롭게 생각했습니다.</p>
                                 </div>
                                 
                                 <!-- update -->
                                 <div class="modalphoto upda">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/update.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>회원정보 수정</h3> <br>멀티파트형식(enctype="multipart/form-data")로 파일 및 이미지 데이터를 보냅니다. <br> 보낸 데이터를 FileSVC에서 저장 할 컬럼에 맞게 값을 가공 후 <br>Uploadfile_Table과 uploadfile_id를 MemberTable에 저장합니다. <br>만약 세션에 uploadfile_id가 존재할 경우 등록버튼은 사라지고 삭제버튼이 활성화됩니다. </p>
+                                    <p class="mb-4"><h3>회원정보 수정</h3> <br>모든 입력란에 값이 안담길수도 있다는 점을 고려해서 만드니 로직에대해 많은 생각을 할 수 있었던 페이지 였던것 같습니다. 뿐만아니라 사진, 파일을 DB에 물리적으로 담는것이아닌 경로를 저장하는 방식으로 앞에서 1차원적으로 글자만 저장하던 방식과 다른점또한 깊이있게 생각할 수있었던 요인이었던것 같습니다.
                                 </div>
 
                                 <!-- workgive -->
                                 <div class="modalphoto upda">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/workgive.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>견적요청</h3> <br>지역버튼을 클릭 시 상세 모달이 표출되며 날짜와 희망문구를 기입 시 하단의 견적요청버튼이 활성화됩니다.</p>
+                                    <p class="mb-4"><h3>견적요청</h3> <br>저희팀의 비지니스 로직의 시작인 페이지인 것 같습니다. 견적요청을 구현할 때 누가 요청을 하고있는지의 개념에서 로그인에서 언급한 세션값을 다른페이지에서의 활용해보는 경험을 했습니다. <br>해당페이지를 시작으로 프로젝트의 첫 단추를 끼우게 됬습니다.</p>
                                 </div>
 
                                 <!-- estimate -->
                                 <div class="modalphoto upda">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/estimate.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>견적서 작성</h3> <br>금액 기입 전 총비용/시간당 구분을 선택하지않으면 알림메세지가 발동됩니다. <br>금액기입 후 견적 문구를 작성하면 견적서 보내기 버튼이 활성화됩니다.</p>
+                                    <p class="mb-4"><h3>견적서 작성</h3> <br>팀원과 초기기획시의 예외사항(ex:본인의 요청엔 견적을 작성할 수 없다 등)을 고려하여 기획에 맞게 설계하는 경험을 하였습니다. <br>초기흐름에 대해 설계가 진행될때 팀원간의 협동심을 느낄수 있는 곳이었습니다.</p>
                                 </div>
 
                                 <!-- estimateBox -->
                                 <div class="modalphoto upda">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/estimatebox.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>견적함</h3> <br>견적요청에 대한 받은견적과 요청게시판을 통해 작성한 보낸 견적을 확인 할 수 있는 곳입니다. <br>만약 견적에 대한 정보가 없을 시 견적이 존재하지 않는다는 메세지를 출력합니다.</p>
+                                    <p class="mb-4"><h3>견적함</h3> <br>보낸것인지 받은것인지 model엔 어떤정보를 담아 보여줄것인지에 대해 비지니스 로직에 대해 팀원끼리 많은 의견을 주고 받았던 곳입니다.</p>
                                 </div>
                                 
                                 <!-- maching -->
                                 <div class="modalphoto upda">
                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/maching.png" alt="..." style="border: 1px solid #f2f2f2;"/>
-                                    <p class="mb-4"><h3>견적서 상세보기</h3> <br>견적함에서 해당 견적을 눌렀을때 진입할 수 있는 상세보기 란입니다. 해당 페이지에서 요청자와 수주자가 댓글로 의사소통을 나누어 업무진행여부를 결정할 수 있는 공간입니다.<br>댓글에 보이는 삭제버튼은 본인이 작성한 댓글일 때만 활성화 됩니다.</p>
+                                    <p class="mb-4"><h3>견적서 상세보기</h3> <br>견적함에서 견적을 눌렀을때 표출되는 상세보기란입니다. 해당페이지는 저희 비지니스로직의 끝부분인 매칭으로 일을 요청한 사람과 견적서를 작성한 사람이 1:1로 대화를 주고받을 수 있는 공간입니다. 해당 페이지 구현으로 계획된 필수시나리오의 끝 단추를 끼울수 있었습니다</p>
                                 </div>
-
-                                
+                                <!-- finish -->
+                                <div class="modalphoto reple">
+                                    <h6>해당 팀프로젝트를 진행하며 많은 혼자선 하지 못할 소중한 경험을 많이하였습니다.<br><br> 그 중 스스로를 돌아보며 코딩을 잘하고 싶은 욕구와 사람들과의 협업을 기대하고있는 자신을 발견하였습니다. <br><br>해당과정을 끝맺음이 아니라 다양한 문제와 사람들을 마주하고싶습니다.</h6>
+                                </div>
 
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>

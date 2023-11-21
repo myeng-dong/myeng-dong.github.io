@@ -10954,6 +10954,9 @@ html {
   border-radius: 16px;
   padding: 15px;
 }
+.modalphoto .reple h6 {
+  line-height: 2;
+}
 
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11175,7 +11178,7 @@ ul, li{
 }
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 2.5rem;
   }
 }
