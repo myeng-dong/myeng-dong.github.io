@@ -94,16 +94,16 @@
                     </div>
                     <div class="li2">
                         <li>
-                            <p class="lead"><strong>: 고형창</strong></p>
+                            <p class="lead"><strong> 고형창</strong></p>
                         </li>
                         <li>
-                            <p class="lead"><strong>: 97.04.11</strong></p>
+                            <p class="lead"><strong> 97.04.11</strong></p>
                         </li>
                         <li>
-                            <p class="lead"><strong>: 울산 울주군</strong></p>
+                            <p class="lead"><strong> 울산 울주군</strong></p>
                         </li>
                         <li>
-                            <p class="lead"><strong>: 010-9867-8881</strong></p>
+                            <p class="lead"><strong> 010-9867-8881</strong></p>
                         </li>
                         <li>
                             <p class="lead"><strong>
@@ -273,6 +273,7 @@
                 </div>
                 <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="margin-bottom: 10px;">Click Me!</h2>
                     <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                         <div class="portfolio_Imgs">
                             <div
@@ -417,16 +418,53 @@
                                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                     <div class="divider-custom-line"></div>
                                 </div>
+
                                 <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/img/hamaindex.PNG" alt="..." />
-                                    
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-4">초기 화면</p>
-                                     <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/img/hamaindex.PNG" alt="..." />
-                                     
-                                <p class="mb-4">Spring Framework을 활용하여 헬프플랫폼 홈페이지의 전반적인 백엔드 부분들을 담당하였습니다.<br>
-                                    프론트는 HTML,CSS,JS을 기반으로 제작되었고, AJAX와 REST API를 활용하였습니다.<br>
-                                    회원관리, 견적요청작성 부분, 사진첨부 구현을 맡았고 그외 전반적인 기능 구현을 총괄하였습니다.</p>
+                                <!-- signup -->
+                                <div class="modalphoto sign">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/signup.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>회원가입</h3> <br>오류검사(BindResult, @Valid)를 통해 오류를 검사하고 error.properties의 오류내용을 표기합니다.</p>
+                                </div>
+
+                                <!-- login -->
+                                <div class="modalphoto log">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/login.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>로그인</h3> <br>데이터베이스에 입력값과 동일한 값이있으면 30분간 세션을 부여하여 로그인된 상태로 만듭니다.</p>
+                                </div>
+                                
+                                <!-- update -->
+                                <div class="modalphoto upda">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/update.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>회원정보 수정</h3> <br>멀티파트형식(enctype="multipart/form-data")로 파일 및 이미지 데이터를 보냅니다. <br> 보낸 데이터를 FileSVC에서 저장 할 컬럼에 맞게 값을 가공 후 <br>Uploadfile_Table과 uploadfile_id를 MemberTable에 저장합니다. <br>만약 세션에 uploadfile_id가 존재할 경우 등록버튼은 사라지고 삭제버튼이 활성화됩니다. </p>
+                                </div>
+
+                                <!-- workgive -->
+                                <div class="modalphoto upda">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/workgive.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>견적요청</h3> <br>지역버튼을 클릭 시 상세 모달이 표출되며 날짜와 희망문구를 기입 시 하단의 견적요청버튼이 활성화됩니다.</p>
+                                </div>
+
+                                <!-- estimate -->
+                                <div class="modalphoto upda">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/estimate.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>견적서 작성</h3> <br>금액 기입 전 총비용/시간당 구분을 선택하지않으면 알림메세지가 발동됩니다. <br>금액기입 후 견적 문구를 작성하면 견적서 보내기 버튼이 활성화됩니다.</p>
+                                </div>
+
+                                <!-- estimateBox -->
+                                <div class="modalphoto upda">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/estimatebox.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>견적함</h3> <br>견적요청에 대한 받은견적과 요청게시판을 통해 작성한 보낸 견적을 확인 할 수 있는 곳입니다. <br>만약 견적에 대한 정보가 없을 시 견적이 존재하지 않는다는 메세지를 출력합니다.</p>
+                                </div>
+                                
+                                <!-- maching -->
+                                <div class="modalphoto upda">
+                                    <img class="img-fluid rounded mb-5 portfolioOne" src="./assets/배너/maching.png" alt="..." style="border: 1px solid #f2f2f2;"/>
+                                    <p class="mb-4"><h3>견적서 상세보기</h3> <br>견적함에서 해당 견적을 눌렀을때 진입할 수 있는 상세보기 란입니다. 해당 페이지에서 요청자와 수주자가 댓글로 의사소통을 나누어 업무진행여부를 결정할 수 있는 공간입니다.<br>댓글에 보이는 삭제버튼은 본인이 작성한 댓글일 때만 활성화 됩니다.</p>
+                                </div>
+
+                                
+
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Close Window
