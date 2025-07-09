@@ -7681,6 +7681,37 @@ textarea.form-control-lg {
   text-align: start;
 }
 
+.projectBoxs-Container {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.projectBoxs h4 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.projectBox {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.projectBox h5 {
+    margin-bottom: 8px;
+    color: #222;
+    font-size: 18px;
+}
+
+.projectBox p {
+    margin: 4px 0;
+    font-size: 16px;
+    color: #555;
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
